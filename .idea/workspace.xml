@@ -4,25 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/basics/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/basics/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/exceptionhandling/ExceptionPrintWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/exceptionhandling/Exceptionthrowable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/exceptionhandling/FileNotFound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/exceptionhandling/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/exceptionhandling/Testthrows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/exceptionhandling/ThrowUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/exceptionhandling/WithoutTryCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/NamingThreads.java" afterDir="false" />
+    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="multithreading basics">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/basics/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/collections/ArrayListDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/collections/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/collections/EnumerationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/collections/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/collections/StackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/collections/VectorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +46,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/19717/Downloads/studentmanagementdemo"
+    "last_opened_file_path": "C:/Users/19717/Exercises/CoreJavaMultithreading",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThreadJoinDemo">
-    <configuration name="ExceptionPrintWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.exceptionhandling.ExceptionPrintWays" />
+  <component name="RunManager" selected="Application.EnumerationDemo">
+    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collections.ArrayListDemo" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.exceptionhandling.*" />
+          <option name="PATTERN" value="com.learn.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exceptionthrowable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.exceptionhandling.Exceptionthrowable" />
+    <configuration name="EnumerationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collections.EnumerationDemo" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.exceptionhandling.*" />
+          <option name="PATTERN" value="com.learn.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.Test" />
+    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collections.LinkedListDemo" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.multithreading.*" />
+          <option name="PATTERN" value="com.learn.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadJoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.ThreadJoinDemo" />
+    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collections.StackDemo" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.multithreading.*" />
+          <option name="PATTERN" value="com.learn.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.exceptionhandling.ThrowUsage" />
+    <configuration name="VectorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collections.VectorDemo" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.exceptionhandling.*" />
+          <option name="PATTERN" value="com.learn.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadJoinDemo" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Exceptionthrowable" />
-        <item itemvalue="Application.ThrowUsage" />
-        <item itemvalue="Application.ExceptionPrintWays" />
+        <item itemvalue="Application.EnumerationDemo" />
+        <item itemvalue="Application.StackDemo" />
+        <item itemvalue="Application.VectorDemo" />
+        <item itemvalue="Application.LinkedListDemo" />
+        <item itemvalue="Application.ArrayListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +137,21 @@
       <option name="presentableId" value="Default" />
       <updated>1678395047120</updated>
     </task>
+    <task id="LOCAL-00001" summary="multithreading basics">
+      <created>1682657479704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682657479704</updated>
+    </task>
+    <task id="LOCAL-00002" summary="multithreading basics">
+      <created>1682657616927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682657616927</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,5 +167,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="multithreading basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="multithreading basics" />
   </component>
 </project>
