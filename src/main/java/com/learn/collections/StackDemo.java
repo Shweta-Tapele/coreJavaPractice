@@ -9,7 +9,8 @@ public class StackDemo {
         s.push("b");
         s.push("c");
         System.out.println(s);
-        s.search("z");
+        System.out.println(s.search("z"));
+        System.out.println(s.search("a"));
         s.pop();
         System.out.println(s);
     }
