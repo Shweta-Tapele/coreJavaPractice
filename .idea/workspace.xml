@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="List Iterator practice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/collections/TreeMapDemo.java" afterDir="false" />
+    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Treeset">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/collections/TestCompareto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/collections/TreeSetDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TreeMapDemo">
+  <component name="RunManager" selected="Application.TreeSetDemo3">
     <configuration name="CursorsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.collections.CursorsDemo" />
       <module name="coreJavaPractice" />
@@ -72,21 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListIteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.collections.ListIteratorDemo" />
-      <module name="coreJavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.collections.StackDemo" />
+    <configuration name="TestCompareto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collections.TestCompareto" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
@@ -111,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeSetDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collections.TreeSetDemo3" />
+      <module name="coreJavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeSetDemo3" />
+        <item itemvalue="Application.TestCompareto" />
         <item itemvalue="Application.TreeMapDemo" />
         <item itemvalue="Application.HashSetDemo" />
         <item itemvalue="Application.CursorsDemo" />
-        <item itemvalue="Application.ListIteratorDemo" />
-        <item itemvalue="Application.StackDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683609563685</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Treeset">
+      <created>1683760614974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683760614974</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +201,8 @@
     <MESSAGE value="multithreading basics and Collection" />
     <MESSAGE value="Iterator practices" />
     <MESSAGE value="List Iterator practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="List Iterator practice" />
+    <MESSAGE value="Treeset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Treeset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
