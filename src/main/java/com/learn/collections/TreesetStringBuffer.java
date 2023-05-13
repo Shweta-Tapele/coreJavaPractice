@@ -10,7 +10,7 @@ import java.util.TreeSet;
 public class TreesetStringBuffer {
     public static void main(String[] args)
     {
-        TreeSet t = new TreeSet(new MyComparator());
+        TreeSet t = new TreeSet(new OneComparator());
         t.add(new StringBuffer("A"));
         t.add(new StringBuffer("Z"));
         t.add(new StringBuffer("S"));
@@ -21,7 +21,7 @@ public class TreesetStringBuffer {
 }
 
 
-class MyComparator implements Comparator
+class OneComparator implements Comparator
 {
 
     @Override
