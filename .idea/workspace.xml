@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Map interface implementations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/collections/utilityclasses/ArraysSortDemo.java" afterDir="false" />
+    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="ArraysSorting">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/collections/utilityclasses/ArraysSearchDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArraysSortDemo">
+  <component name="RunManager" selected="Application.ArraysSearchDemo">
+    <configuration name="ArraysSearchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collections.utilityclasses.ArraysSearchDemo" />
+      <module name="coreJavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.collections.utilityclasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArraysSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.collections.utilityclasses.ArraysSortDemo" />
       <module name="coreJavaPractice" />
@@ -86,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.collections.map.TreeMapDemo" />
-      <module name="coreJavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.collections.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TreeMapDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.collections.map.TreeMapDemo1" />
       <module name="coreJavaPractice" />
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraysSearchDemo" />
         <item itemvalue="Application.ArraysSortDemo" />
         <item itemvalue="Application.PropertiesDemo" />
         <item itemvalue="Application.HashTableDemo" />
         <item itemvalue="Application.TreeMapDemo1" />
-        <item itemvalue="Application.TreeMapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684040869923</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ArraysSorting">
+      <created>1684267702203</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684267702203</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +231,8 @@
     <MESSAGE value="Treeset" />
     <MESSAGE value="Treeset with comparable and comparator" />
     <MESSAGE value="Map interface implementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map interface implementations" />
+    <MESSAGE value="ArraysSorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArraysSorting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
