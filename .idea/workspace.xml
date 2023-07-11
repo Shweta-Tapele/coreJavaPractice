@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Example of Predicate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/stream/TestStream.java" afterDir="false" />
+    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Example of Stream">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684646715744</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Example of Stream">
+      <created>1685134652026</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685134652026</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Example of Stream">
+      <created>1685134666970</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685134666970</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +261,8 @@
     <MESSAGE value="ArraysSorting" />
     <MESSAGE value="Example of Lambda Expression using Collections" />
     <MESSAGE value="Example of Predicate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example of Predicate" />
+    <MESSAGE value="Example of Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example of Stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
