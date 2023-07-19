@@ -1,3 +1,10 @@
 1. Why Java isn't pure Object-Oriented  language?
 2. What are wrapper classes in Java? Java 1.5 v due to Collection concept
-3.
+3. How can you write your own singleton class?
+    Private constructor
+4. Cloneable interface is functional or marker interface?
+5. Difference between HashSet and TreeSet
+6. Comparable vs comparator
+7. Try with resources
+
+

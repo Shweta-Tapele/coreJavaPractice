@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Example of Stream">
+    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Core Java Interview question">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/lambdaexamples/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685134666970</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Core Java Interview question">
+      <created>1689113012221</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689113012221</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +272,8 @@
     <MESSAGE value="Example of Lambda Expression using Collections" />
     <MESSAGE value="Example of Predicate" />
     <MESSAGE value="Example of Stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example of Stream" />
+    <MESSAGE value="Core Java Interview question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Core Java Interview question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

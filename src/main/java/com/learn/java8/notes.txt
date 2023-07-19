@@ -1,0 +1,60 @@
+# Java 8 New Features
+
+concise code
+Enabling functional programming
+
+1.Lambda Expressions
+2.Functional Interface
+3.Default Methods and static Methods
+4.Predefined Functional Interfaces
+    Predicate
+    Function
+    Consumer
+    Supplier
+    etc
+5.Double Colon operator (::)
+  Method reference
+  constructor reference
+6.Streams
+7.Date and Time API
+8.Optional class
+9.Nashorn Javascript Engine
+
+
+
+
+
+1.Lambda Expressions
+-----------------------------------------------------
+eg 1:
+public void m1()
+{
+System.out.println("Hello");
+}
+
+() -> System.out.println("Hello");
+
+eg 2:
+
+public void m1(int a, int b)
+{
+System.out.println(a+b);
+}
+
+
+(a,b) -> System.out.println(a+b);
+
+
+eg 3:
+public int squareIt(int n)
+{
+return n * n;
+}
+
+
+(int n )-> { return n*n;}
+(int n) -> n*n;
+n -> n*n;
+
+
+
