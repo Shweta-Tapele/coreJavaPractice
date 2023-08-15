@@ -57,4 +57,16 @@ return n * n;
 n -> n*n;
 
 
+eg 4:
+public void m1(String s)
+{
+return s.length();
+}
+
+
+s -> s.length();
+------------------------------------------------------------
+2. Functional Interface
+
+
 

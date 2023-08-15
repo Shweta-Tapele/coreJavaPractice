@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Core Java Interview question">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/lambdaexamples/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/I1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/I2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,7 +50,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestStream">
+  <component name="RunManager" selected="Application.Child">
     <configuration name="ArraysSearchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.collections.utilityclasses.ArraysSearchDemo" />
       <module name="coreJavaPractice" />
@@ -62,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.collections.utilityclasses.ArraysSortDemo" />
+    <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8.functionalinterfaces.defaultmethods.Child" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.collections.utilityclasses.*" />
+          <option name="PATTERN" value="com.learn.java8.functionalinterfaces.defaultmethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Child" />
         <item itemvalue="Application.TestStream" />
         <item itemvalue="Application.ExamPredicate" />
         <item itemvalue="Application.Collection_Lambda" />
         <item itemvalue="Application.ArraysSearchDemo" />
-        <item itemvalue="Application.ArraysSortDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689113012221</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Core Java Interview question">
+      <created>1689800613091</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689800613091</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
