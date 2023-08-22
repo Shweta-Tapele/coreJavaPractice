@@ -25,6 +25,14 @@ public static void main (String[] args)
 
 
 
+    //Difference Between String ,StringBuilder and StringBuffer
+
+    //What is subString Method?
+
+
+    String original = new String("HElloWoreld");
+
+    System.out.println(original.substring(5));
 
 }
 
