@@ -21,6 +21,8 @@ public static void main (String[] args)
     String str5 = sb.toString();
     System.out.println(str5);
 
+    //Practice more String cases
+
 
 
 
