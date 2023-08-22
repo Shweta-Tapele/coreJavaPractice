@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Core Java Interview question">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/RemoveDuplicates.java" afterDir="false" />
+    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Remove duplicates from a List of Strings">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/string/DemoProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RemoveDuplicates">
+  <component name="RunManager" selected="Application.DemoProgram">
     <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.java8.functionalinterfaces.defaultmethods.Child" />
       <module name="coreJavaPractice" />
@@ -61,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Collection_Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8.Collection_Lambda" />
+    <configuration name="DemoProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.string.DemoProgram" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java8.*" />
+          <option name="PATTERN" value="com.learn.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoProgram" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.Child" />
         <item itemvalue="Application.TestStream" />
         <item itemvalue="Application.ExamPredicate" />
-        <item itemvalue="Application.Collection_Lambda" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692132757708</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Remove duplicates from a List of Strings">
+      <created>1692335892414</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692335892414</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +293,8 @@
     <MESSAGE value="Example of Predicate" />
     <MESSAGE value="Example of Stream" />
     <MESSAGE value="Core Java Interview question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Core Java Interview question" />
+    <MESSAGE value="Remove duplicates from a List of Strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove duplicates from a List of Strings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
