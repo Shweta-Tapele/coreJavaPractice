@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="String substring method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/lambdaexamples/LambdaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/lambdaexamples/LambdaParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/lambdaexamples/RunnableLambdaExample.java" afterDir="false" />
+    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Lambda expressions">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/ConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/SupplierDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="b41d2c34-9760-43e0-a48b-eb68369d3a82" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,13 +50,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RunnableLambdaExample">
-    <configuration name="DemoProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.string.DemoProgram" />
+  <component name="RunManager" selected="Application.ConsumerDemo">
+    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8.functionalinterfaces.defaultmethods.ConsumerDemo" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.string.*" />
+          <option name="PATTERN" value="com.learn.java8.functionalinterfaces.defaultmethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,19 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.RemoveDuplicates" />
-      <module name="coreJavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.java8.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RunnableLambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.java8.lambdaexamples.RunnableLambdaExample" />
       <module name="coreJavaPractice" />
@@ -119,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SupplierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8.functionalinterfaces.defaultmethods.SupplierDemo" />
+      <module name="coreJavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java8.functionalinterfaces.defaultmethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerDemo" />
+        <item itemvalue="Application.SupplierDemo" />
         <item itemvalue="Application.RunnableLambdaExample" />
         <item itemvalue="Application.LambdaParameters" />
         <item itemvalue="Application.LambdaExample" />
-        <item itemvalue="Application.DemoProgram" />
-        <item itemvalue="Application.RemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692744415348</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Lambda expressions">
+      <created>1695521389423</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1695521389424</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,7 +341,8 @@
     <MESSAGE value="String equals to method" />
     <MESSAGE value="String Concatenation" />
     <MESSAGE value="String substring method" />
-    <option name="LAST_COMMIT_MESSAGE" value="String substring method" />
+    <MESSAGE value="Lambda expressions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda expressions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -351,6 +356,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/java8/lambdaexamples/LambdaExample.java</url>
           <line>9</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/SupplierDemo.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/java8/Collection_Lambda.java</url>
