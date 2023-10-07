@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Lambda expressions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/methodreference/MethodReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/optional/OptionalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/string/Case5.java" afterDir="false" />
+    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="String Cases">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/string/Case6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/string/Case7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Case5">
+  <component name="RunManager" selected="Application.Case7">
     <configuration name="Case5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.string.Case5" />
       <module name="coreJavaPractice" />
@@ -64,12 +63,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8.functionalinterfaces.defaultmethods.ConsumerDemo" />
+    <configuration name="Case6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.string.Case6" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java8.functionalinterfaces.defaultmethods.*" />
+          <option name="PATTERN" value="com.learn.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Case7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.string.Case7" />
+      <module name="coreJavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,26 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8.functionalinterfaces.defaultmethods.SupplierDemo" />
-      <module name="coreJavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.java8.functionalinterfaces.defaultmethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Case7" />
         <item itemvalue="Application.Case5" />
+        <item itemvalue="Application.Case6" />
         <item itemvalue="Application.OptionalDemo" />
         <item itemvalue="Application.MethodReferenceDemo" />
-        <item itemvalue="Application.ConsumerDemo" />
-        <item itemvalue="Application.SupplierDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695759635814</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="String Cases">
+      <created>1696626315251</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1696626315251</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,7 +355,8 @@
     <MESSAGE value="String Concatenation" />
     <MESSAGE value="String substring method" />
     <MESSAGE value="Lambda expressions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda expressions" />
+    <MESSAGE value="String Cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="String Cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
