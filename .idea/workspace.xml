@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="String Cases">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/string/Case6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/string/Case7.java" afterDir="false" />
+    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="String new cases">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/stream/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,22 +48,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Case7">
+  <component name="RunManager" selected="Application.Exceptionthrowable">
     <configuration name="Case5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.string.Case5" />
-      <module name="coreJavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Case6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.string.Case6" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
@@ -89,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8.methodreference.MethodReferenceDemo" />
+    <configuration name="Exceptionthrowable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.exceptionhandling.Exceptionthrowable" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java8.methodreference.*" />
+          <option name="PATTERN" value="com.learn.exceptionhandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8.optional.OptionalDemo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.stream.Test" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java8.optional.*" />
+          <option name="PATTERN" value="com.learn.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.learn.exceptionhandling.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.exceptionhandling.Test" />
+      <module name="coreJavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.exceptionhandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exceptionthrowable" />
+        <item itemvalue="Application.com.learn.exceptionhandling.Test" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Case7" />
         <item itemvalue="Application.Case5" />
-        <item itemvalue="Application.Case6" />
-        <item itemvalue="Application.OptionalDemo" />
-        <item itemvalue="Application.MethodReferenceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696626315251</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="String new cases">
+      <created>1696652937539</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1696652937539</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,7 +362,8 @@
     <MESSAGE value="String substring method" />
     <MESSAGE value="Lambda expressions" />
     <MESSAGE value="String Cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="String Cases" />
+    <MESSAGE value="String new cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="String new cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -376,6 +383,11 @@
           <line>22</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/exceptionhandling/Exceptionthrowable.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/java8/Collection_Lambda.java</url>
           <line>6</line>
@@ -384,15 +396,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/java8/methodreference/MethodReferenceDemo.java</url>
-          <line>10</line>
-          <properties class="com.learn.java8.methodreference.MethodReferenceDemo" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
