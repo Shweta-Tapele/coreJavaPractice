@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="String new cases">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/stream/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/FunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/PredicateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/StreamsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/filterdemos/FilterDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/filterdemos/FilterDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/filterdemos/FilterDemo3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8/ExamPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/ExamPredicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +55,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Exceptionthrowable">
-    <configuration name="Case5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.string.Case5" />
+  <component name="RunManager" selected="Application.FilterDemo3">
+    <configuration name="FilterDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.filterdemos.FilterDemo1" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.string.*" />
+          <option name="PATTERN" value="com.learn.java8.streams.filterdemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Case7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.string.Case7" />
+    <configuration name="FilterDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.filterdemos.FilterDemo2" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.string.*" />
+          <option name="PATTERN" value="com.learn.java8.streams.filterdemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exceptionthrowable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.exceptionhandling.Exceptionthrowable" />
+    <configuration name="FilterDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.filterdemos.FilterDemo3" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.exceptionhandling.*" />
+          <option name="PATTERN" value="com.learn.java8.streams.filterdemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.stream.Test" />
+    <configuration name="StreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.StreamsExample" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.stream.*" />
+          <option name="PATTERN" value="com.learn.java8.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.learn.exceptionhandling.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.exceptionhandling.Test" />
+    <configuration name="com.learn.java8.functionalinterfaces.defaultmethods.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8.functionalinterfaces.defaultmethods.Test" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.exceptionhandling.*" />
+          <option name="PATTERN" value="com.learn.java8.functionalinterfaces.defaultmethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exceptionthrowable" />
-        <item itemvalue="Application.com.learn.exceptionhandling.Test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Case7" />
-        <item itemvalue="Application.Case5" />
+        <item itemvalue="Application.FilterDemo3" />
+        <item itemvalue="Application.FilterDemo2" />
+        <item itemvalue="Application.FilterDemo1" />
+        <item itemvalue="Application.StreamsExample" />
+        <item itemvalue="Application.com.learn.java8.functionalinterfaces.defaultmethods.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696652937539</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="String new cases">
+      <created>1699119945647</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1699119945647</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,11 +386,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/collections/TreeMapDemo.java</url>
           <line>4</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/java8/lambdaexamples/LambdaExample.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/SupplierDemo.java</url>

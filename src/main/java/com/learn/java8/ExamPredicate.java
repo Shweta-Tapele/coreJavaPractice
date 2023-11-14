@@ -12,7 +12,8 @@ class Employee{
         this.salary = salary;
     }
 }
-public class ExamPredicate {
+public class
+ExamPredicate {
 
         public static void main(String[] args)
         {
