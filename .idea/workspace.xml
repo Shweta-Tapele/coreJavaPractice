@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="String new cases">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/FunctionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/PredicateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/functionalinterfaces/defaultmethods/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/StreamsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/filterdemos/FilterDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/filterdemos/FilterDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/filterdemos/FilterDemo3.java" afterDir="false" />
+    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Stream">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/filterdemos/FilterDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/flatmapdemos/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/mapdemos/MapDem01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/mapdemos/MapDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/mapdemos/MapDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/mapdemos/MapDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/streammethods/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/streamsmethods/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/streamsmethods/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/NewThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/SlideRotator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/ThreadInterruptDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java8/ExamPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/ExamPredicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +59,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FilterDemo3">
-    <configuration name="FilterDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.filterdemos.FilterDemo1" />
+  <component name="RunManager" selected="Application.ThreadInterruptDemo">
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.streamsmethods.Demo1" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java8.streams.filterdemos.*" />
+          <option name="PATTERN" value="com.learn.java8.streams.streamsmethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.filterdemos.FilterDemo2" />
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.streamsmethods.Demo2" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java8.streams.filterdemos.*" />
+          <option name="PATTERN" value="com.learn.java8.streams.streamsmethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.filterdemos.FilterDemo3" />
+    <configuration name="MapDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.mapdemos.MapDemo3" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java8.streams.filterdemos.*" />
+          <option name="PATTERN" value="com.learn.java8.streams.mapdemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.StreamsExample" />
+    <configuration name="SlideRotator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.SlideRotator" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java8.streams.*" />
+          <option name="PATTERN" value="com.learn.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.learn.java8.functionalinterfaces.defaultmethods.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8.functionalinterfaces.defaultmethods.Test" />
+    <configuration name="ThreadInterruptDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.ThreadInterruptDemo" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java8.functionalinterfaces.defaultmethods.*" />
+          <option name="PATTERN" value="com.learn.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FilterDemo3" />
-        <item itemvalue="Application.FilterDemo2" />
-        <item itemvalue="Application.FilterDemo1" />
-        <item itemvalue="Application.StreamsExample" />
-        <item itemvalue="Application.com.learn.java8.functionalinterfaces.defaultmethods.Test" />
+        <item itemvalue="Application.ThreadInterruptDemo" />
+        <item itemvalue="Application.SlideRotator" />
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.MapDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699119945647</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Stream">
+      <created>1699991480781</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1699991480781</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,7 +388,8 @@
     <MESSAGE value="Lambda expressions" />
     <MESSAGE value="String Cases" />
     <MESSAGE value="String new cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="String new cases" />
+    <MESSAGE value="Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
