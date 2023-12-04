@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Stream">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/filterdemos/FilterDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/flatmapdemos/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/mapdemos/MapDem01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/mapdemos/MapDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/mapdemos/MapDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/mapdemos/MapDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/streammethods/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/streamsmethods/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java8/streams/streamsmethods/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/NewThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/SlideRotator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/ThreadInterruptDemo.java" afterDir="false" />
+    <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Multithreading">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/synchronizedmethod/Display.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ThreadInterruptDemo">
+  <component name="RunManager" selected="Application.SynchronizedDemo">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.streamsmethods.Demo1" />
       <module name="coreJavaPractice" />
@@ -86,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java8.streams.mapdemos.MapDemo3" />
+    <configuration name="SlideRotator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.SlideRotator" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java8.streams.mapdemos.*" />
+          <option name="PATTERN" value="com.learn.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlideRotator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.SlideRotator" />
+    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.synchronizedmethod.SynchronizedDemo" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.multithreading.*" />
+          <option name="PATTERN" value="com.learn.multithreading.synchronizedmethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynchronizedDemo" />
         <item itemvalue="Application.ThreadInterruptDemo" />
         <item itemvalue="Application.SlideRotator" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.MapDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699991480781</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Multithreading">
+      <created>1701300986346</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1701300986347</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,7 +385,8 @@
     <MESSAGE value="String Cases" />
     <MESSAGE value="String new cases" />
     <MESSAGE value="Stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream" />
+    <MESSAGE value="Multithreading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multithreading" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
