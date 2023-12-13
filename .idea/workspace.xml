@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="225146ac-6396-49e1-b22f-0314d2c6604e" name="Changes" comment="Multithreading">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/executorframework/ExecutorFrameworkDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/executorframework/CallableRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/executorframework/ExecutorFrameworkdemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/multithreading/executorframework/ExecutorServiceRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,20 +50,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExecutorFrameworkDemo1">
-    <configuration name="ExecutorFrameworkDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExecutorFrameworkDemo1" />
-      <module name="coreJavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SlideRotator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.SlideRotator" />
+  <component name="RunManager" selected="Application.CallableRunner">
+    <configuration name="CallableRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.executorframework.CallableRunner" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.multithreading.*" />
+          <option name="PATTERN" value="com.learn.multithreading.executorframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +64,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.synchronizedmethod.SynchronizedDemo" />
+    <configuration name="ExecutorFrameworkDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExecutorFrameworkDemo1" />
+      <module name="coreJavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorFrameworkdemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.executorframework.ExecutorFrameworkdemo2" />
       <module name="coreJavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.multithreading.synchronizedmethod.*" />
+          <option name="PATTERN" value="com.learn.multithreading.executorframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorServiceRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.executorframework.ExecutorServiceRunner" />
+      <module name="coreJavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.multithreading.executorframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadInterruptDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.multithreading.ThreadInterruptDemo" />
-      <module name="coreJavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CallableRunner" />
+        <item itemvalue="Application.ExecutorFrameworkdemo2" />
+        <item itemvalue="Application.ExecutorServiceRunner" />
         <item itemvalue="Application.ExecutorFrameworkDemo1" />
         <item itemvalue="Application.ThreadB" />
-        <item itemvalue="Application.SynchronizedDemo" />
-        <item itemvalue="Application.ThreadInterruptDemo" />
-        <item itemvalue="Application.SlideRotator" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +346,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701722488754</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Multithreading">
+      <created>1702454002972</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702454002972</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Multithreading">
+      <created>1702454169489</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1702454169489</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
