@@ -20,7 +20,9 @@ class Task implements Callable<String> {
     // Method of this Class
     public String call() throws Exception
     {
-        return "Hiiii " + message + "!";
+        for(int i=0;i<10;i++)
+            System.out.println("Hiiii " + message + "!");
+        return message;
     }
 }
 // Class 2
@@ -35,6 +37,8 @@ public class ExecutorFrameworkDemo1{
         // Creating an object of above class
         // in the main() method
         Task task = new Task("Shweta");
+        Task task1 = new Task("Sainz");
+
 
         // Creating object of ExecutorService class and
         // Future object Class
