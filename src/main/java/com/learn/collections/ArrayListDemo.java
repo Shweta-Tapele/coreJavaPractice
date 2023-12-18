@@ -16,6 +16,8 @@ public class ArrayListDemo {
         l.add(2,"M");
         l.add("N");
         System.out.println(l);
+        l.clear();
+        System.out.println(l);
     }
 
 
